@@ -2,6 +2,8 @@ var Botkit = require('botkit')
 
 var token = process.env.SLACK_TOKEN
 
+
+
 var controller = Botkit.slackbot({
   // reconnect to Slack RTM when connection goes bad
   retry: Infinity,
